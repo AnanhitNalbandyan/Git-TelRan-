@@ -1,0 +1,96 @@
+/*Создайте композицию, которую вы видите на изображении, используя относительное и абсолютное позиционирование, а так же z-index. После выполнения сравните с результатом.
+1.	Размер композиции 600x400
+2.	Фон композиции вставьте через CSS
+3.	Каждый элемент композиции - это картинка (img), которую нужно расположить в нужную позицию относительно композиции. Используйте классы и стилизуйте их
+4.	Попробуйте подобрать примерно похожие значения позиций элементов*/
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 40px;
+}
+
+.block{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.block div{
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.block_1{
+    background-color: blue;
+}
+
+.block_2{
+    background-color: rgb(0, 183, 255);
+    /* position: relative; */
+    /* left: 30px; */
+    /* right: ; */
+    /* top: 40px; */
+    /* bottom: 40px; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.block_3{
+    background-color: rgb(225, 0, 255);
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://raw.githubusercontent.com/zubaryk/cosmos1/main/bg.jpg);
+    position: relative;
+
+}
+
+.planeta1{
+    position: absolute;
+    left: 150px;
+    top: 45px;
+}
+.metiorit{
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+.planeta2{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.planeta3{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.nlo{
+    position: absolute;
+    left: 115px;
+    top: 300px;
+} 
+.cosmonavt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

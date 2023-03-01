@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**{
+    margin-bottom: 20px;
+}*/
+h1{
+    color:gold;
+    text-align: center;
+    font-size: auto;
+    font-style: calc(222px);
+    margin:auto;
+}
+.picture1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.picture-2{
+    margin-left: 200px;
+    background-color: gold;
+}
+.picture-3{
+    margin-left: 400px;
+    background-color: pink;
+}
+.picture-4{
+    margin-left: 600px;
+    background-color: rgb(255, 0, 157);
+}

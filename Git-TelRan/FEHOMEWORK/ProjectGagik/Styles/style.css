@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'Inter', sans-serif;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(36, 214, 199);
+}
+.header-wrapper{
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.img-1{
+    width: 101px;
+    height: 29px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+a:not(:last-child){
+    margin-right: 20px;
+}
+
+img:not(:last-child){
+    margin-right: 20px;
+}
+
+/*About us*/
+.about{
+    display: flex;
+    align-items: center;
+}
+.about-img{
+    width: 50%; 
+}
+.about-info{
+    width: 50%;
+    padding: 0 65px;
+}
+h1{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-descr{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+}
+/*our projects*/
+.ourprojects{
+    width: 100%;
+    height: 730px;
+    background-color: aquamarine; 
+    display: flex; 
+    justify-content: space-around; 
+}
+.ourprojecz-wrapper{
+    width: 91%;
+    height: 531px;
+    display: flex;
+}
+.item-arena{
+    width: 436px;
+    height: 403px;
+    background-image: url(/Imiges/project__arena.png);
+    background-size: cover;
+}
+.itemarena-inner{
+    width: 100%;
+    padding-top: 300px;
+}
+h2{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 65px;
+}
+
+.arena-wrapper{
+    width: 436px;
+    height: 403px;
+    margin-left: 65px;
+}
+.item-arena
+h3{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px; 
+    color: black;
+    margin-left: 25px;
+}
+.ourprojects-descr{
+    font-weight: 400;
+    font-size: 15px;
+    text-align:center;
+    color:black;
+}
+.arena-wrapper{
+    width: 436px;
+    height: 403px;
+}
+
+.projectarena-img{
+    margin-top: 100px;
+    width: 436px;
+    height: 403px;
+}
+/*footer*/
+.footer-wrapper{
+    margin: auto;
+    padding-top: 10px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-left: 24px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress{
+    width: 315px;
+    height: 222px;
+    text-align: center;
+
+}
+.img-loc{
+    font-size: 48px;
+}
+.padress{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.pstreet{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.phone{
+    width: 315px;
+    height: 222px;
+    text-align: center;
+}
+.img-phone{
+    width: 87px;
+    height: 33px;
+    font-size: 48px;
+}
+.pphone{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.pnumbers{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.worktime{
+    width: 315px;
+    height: 222px;
+    text-align: center;
+}
+.img-clock{
+    font-size: 48px;
+    text-align: center;
+    
+}
+.ptime{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.pdaytime{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.email{
+    width: 87px;
+    height: 100px;
+    text-align: center;
+}
+.img-mail{
+    font-size: 48px;
+    text-align: center;
+  
+    padding-left: 40%;
+}
+.pmail{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+}
+.pemail{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 315px;
+    height: 33px;
+    text-align: center;
+    color:rgb(237, 63, 63);
+}

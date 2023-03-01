@@ -1,0 +1,90 @@
+*{
+    margin: 0;/* сброс внешних отступов */
+    padding:0;/* сброс внутренних отступов */
+}
+header{
+    height: 60px;/* высота блока в px,% ...*/
+    background-color: bisque;
+    padding: 20px 0;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h1:hover{
+    color: rgb(38, 196, 101);
+    transform: scale(2.3) rotate(-5deg);
+    transition: 2s;
+}
+main{
+    width: 90%;
+    margin: 40px auto;/*поля основъ*/
+    padding: 30px 0;/*внутренние отступъ*/
+    /*background-color: aqua;*/
+    display: flex;/*блокки дивайдъ встоют в одну строку*/
+    flex-wrap: wrap;/* отменить выстравание элементов в одну строку. разрешает элементам переходить на новую строку */
+    justify-content: center;/*центрирование img*/
+   background-color: bisque;
+   border-radius: 10px;/* закругление углов. чем больше значение, тем круглее */
+   box-shadow: 0 0 5px 1px rgb(163, 74, 74);/* тень блока */
+    
+}
+.item{
+    width: calc(50% - 20px);/*подщет ширинъ картинок по отношению к блоку див*/
+    height: 250px;
+    margin: 10px;
+    background-size: contain;/* cover, contain  */
+    background-repeat: no-repeat;/* не повторять картинку, если она меньше, чем блок */
+    background-position: center;
+    transition: 2s;
+}
+.item:hover{
+    transform: scale(1.5) rotate(5deg);
+}
+.item-1{
+    background-image: url(../Images/0a\ -\ 1.jpg);
+    
+}
+.item-2{
+    background-image: url(../Images/ee6228d837a529e0c6ee8657c06d0f55.jpg);
+    
+}
+.item-3{
+    background-image: url(../Images/GettyImages-639559323-59fcc25313f1290037ca903a.jpg);
+    
+}
+.item-4{
+    background-image: url(../Images/IMG_8737.JPG);
+    
+}
+.item-5{
+    background-image: url(../Images/R.jpg);
+    background-size: contain;
+    
+}
+.item-6{
+    background-image: url(../Images/the-sense-of-sight-1617\,bal55897.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-7{
+    background-image: url(../Images/tumblr_n7sazzZbBo1rhlcb9o1_500.jpg);
+    background-size: 100%;
+}
+
+.item-8{
+    background-image: url(../Images/las-meninas-prado-museum-best-paintings-2-1.webp);
+}
+
+
+/* 1. cover - растягивает кратинку по ширине, а высота масштабируется автоматически
+    2. contain - растягивает картинку по высоте, а ширина масштабируется автоматически
+    Блочные элементы - article, div, main, header, h1, p. По умолчанию занимают 100% ширины родительского блока
+    Строчные элементы -  
+    Свойтсво display: flex; - позволяет позицинировать все элемент в одну строку
+    Когда вы использовали display:flex, открывается возможность добавить другие свойства
+    для позиционирования
+    calc() - позволяет динамично посчитать размер элемента, исполльзуя арифм. операции
+    ДЗ. https://flexboxfroggy.com/#ru пройти все 24 уровня*/

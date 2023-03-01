@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    width: 1250px;
+    
+    margin-left: 241px;
+    background-color: #34495E;
+    border-radius: 20px;
+}
+.head{
+    margin-top: 140px;
+    height: 460px;
+}
+
+input{
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 940px;
+    height: 50px;
+    color: black;
+    background-color: rgb(204, 196, 196);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    
+}
+
+button{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 940px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(12, 106, 12);
+}
+.foot{
+    margin-top: 40px;
+    height: 206px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    margin-left: 150px;
+}
+select{
+    width: 190px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(211, 202, 202);
+    border-radius: 4px;
+    border-style: none;
+    position: relative;
+}
+.chooseName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+li span{
+    padding-left: 70px;
+}

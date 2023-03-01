@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    border: 2px solid red;
+    width: 500px;
+    margin: 20px auto;
+    position: relative;
+    height: 1000px;
+}
+
+.block1{
+    background-color: aqua;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.block2{
+    background-color: rgb(0, 132, 255);
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}

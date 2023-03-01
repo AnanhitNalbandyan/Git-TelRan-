@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.disine-wrapper{
+    background-color: rgb(237, 231, 231);
+    width: 100%;
+    height: 700px;
+    background: linear-gradient (0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+}
+.disine-wrapper:over{
+    opacity: 1;
+}
+.head{
+    padding-top: 71px;
+    display: flex;
+    align-items: center;
+    
+}
+.wd{
+    font-size: 48px;
+    padding-left: 402px;
+}
+.titles{
+    width: 611px;
+    padding-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: Roboto, ;
+    font-style: normal;
+    line-height: 26px;
+}
+.infolaptop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+   
+}
+.laptop-img{
+    padding-top: 157px;
+    padding-bottom: 300px;
+    width: 357px;
+    height: 235px;
+
+}
+.dis{
+    padding-top: 150px;
+    padding-left: 101px;
+    padding-right: 405px;´
+   
+}
+h1{
+    font-style: normal;
+    font-size: 48px;
+    padding-bottom: 35px;
+
+}
+.inform-descr{
+    width: 540px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+button.{
+    margin: 50px;
+    
+}
+.writeme{
+    border-radius: 4px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color:#34547A;
+}
+.aboutme-inf{
+    width: 100%;
+    height: 359px;
+}
+.aboutme{
+    width: 540px;
+    height: 147x;
+    padding-top: 112px;
+    padding-bottom: 100px;
+    padding-left: 600px;
+    justify-content: center;
+    align-content: center;
+}
+.ame{
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.ame-descr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center
+}
+.percent{
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;;
+}
+
+.fourty{
+    padding-top: 100px;
+    width: 141px;
+    height: 50px;
+}
+.fourty1{
+    padding-left: 450px;
+    padding-top: 100px;
+    width: 141px;
+    height: 50px;
+}

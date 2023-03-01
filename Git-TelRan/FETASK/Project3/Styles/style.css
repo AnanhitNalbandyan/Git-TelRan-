@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Helvetica", sans-serif;
+    src: url();
+}
+
+main{
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 15px gainsboro;
+    border-radius: 8px;
+    font-family: "Helvetica";
+    font-size: 18px;
+   
+}
+.header{
+    width: 100%;
+    background-color: #87cefa;
+    height: 150px;
+    padding-top: 45px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.commondiv{
+    color: #808080;
+    margin: 5px 0;
+}
+input, select, textarea{
+    margin: 7px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+.contact div{
+    display: flex;
+    flex-direction: row;
+}
+.callback div{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: #87cefa;
+    padding: 20px 80px;
+    color: white;
+    display: block;
+    width: 200px;
+    border-radius: 4px;
+    margin: auto;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+p:hover{
+    color: #87cefa;
+}
+input, select, textarea:hover{
+   color: black;
+}

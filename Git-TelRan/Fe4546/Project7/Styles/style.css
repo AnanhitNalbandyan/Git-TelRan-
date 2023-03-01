@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+   /*box-sizing: border-box;/* размеры ширины и высоты включают в себя padding */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.disine-wrapper{
+    background-color: rgb(237, 231, 231);
+    width: 100%;
+    height: 700px;
+    background: linear-gradient (0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+}
+.disine-wrapper:hover{
+    opacity: 1;
+}
+.head{
+    padding-top: 71px;
+    display: flex;
+    align-items: center;
+    
+}
+.wd{
+    font-size: 48px;
+    padding-left: 500px;
+}
+.titles{
+    width: 1000px;
+    padding-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+}
+.infoscrin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+   
+}
+.scrin-img{
+    padding-top: 157px;
+    padding-bottom: 300px;
+}
+.dis{
+    padding-top: 150px;
+    padding-left: 101px;
+    padding-right: 405px;´
+   
+}
+h1{
+    font-style: normal;
+    font-size: 48px;
+    padding-bottom: 35px;
+
+}
+.inform-descr{
+    width: 540px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+button.{
+    margin: 50px;
+    
+}
+.writeme{
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color:#34547A;
+}
+.aboutme-inf{
+    height: 359px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 800px;
+}
+.aboutme{
+    width: 540px;
+    justify-content: center;
+    align-items: center;
+}
+.abme{
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.abme-descr{
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center
+}
+.percent{
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;;
+}
+
+.fourty{
+    padding-top: 100px;
+    width: 141px;
+    height: 50px;
+}
+.fourty1{
+    padding-left: 800px;
+    padding-top: 100px;
+    width: 141px;
+    height: 50px;
+}
+/* мои навъки */
+.wrapper{
+    width: 60%;
+    margin: auto;
+}
+.skills{
+    padding: 100px 0;
+}
+.s-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-title{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-family: 'Roboto' ;   
+}
+.s-info{
+    width: 40%;
+}
+.s-skale:not(:last-chiled){
+   margin-bottom: 30px; 
+}
+.s-name{
+    color:rgb(138, 129, 129);
+    margin-bottom: 20px;
+
+}
+.s-s-outer{
+    width: 100%;
+    height: 4px;
+    background-color: rgba(128, 128, 128, 0.36);
+    margin-bottom: 20px;
+}
+.s-s-inner{
+    width: 70%;
+    height: 100%;
+    background-color:#34547A;
+}
+
+.s-img{
+    display: block;
+    width: 50%;
+}
+/**/
+.process{
+    padding: 100px;
+    background-color: #EEEFF1;
+}
+.p-title{
+    font-size: 32px;
+    font-weight:500;
+    color: #000; 
+    text-align: center;  
+}
+.p-descr{
+    width: 50%;
+    margin: 50px auto 60px;/*top right-left  bottom*/
+    text-align: center;
+    color: #727272;
+}
+.p-video{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.projects-item{
+    width: 25%;
+    height: 300px;
+    background-size: cover;
+}
+.stiker{
+    background-image: url(../Images/Sticers.png);
+
+}
+.laptop{
+    background-image: url(../Images/Leptop.png) ;
+}
+.projects-item-inner{
+    height: 100%;/* на всю высоту внешнего блока */
+    background:linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)) ;
+    opacity: 0; /* прозрачность блока. 0 - прозрачный(невидимый) 1-непрозрачный. 0.5 прозрачный наполовину */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-item-inner:hover{
+    opacity: 1;
+}
+.microsoft{
+    width: 100%;
+    height: 320px;
+}
+.mcrsft{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 120px;
+    padding-left: 800px;
+}
+
+.form{
+    background-color: azure;
+    padding: 100px 0;
+}
+.form-wrapper{
+    width: 30%;
+    margin: auto;
+}
+.form-title{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.form-descr{
+    color: #727272;
+    margin: 50px 0 65px;
+    text-align: center;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+}
+input[name="name"], input[name="email"]{
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 20px 0 50px;
+    font-family: 'Roboto', sans-serif;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    padding: 20px 45px;
+    background-color: #34547A;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #34547A;
+    height: 150px;
+    justify-content: center;
+}
+.right-wrapper{
+    padding-top: 50px;
+    padding-left: 45px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.owneright{
+    
+  
+}
+h6{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.right{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.vk{
+    padding-left: 
+}
+/* 
+border: 1px solid black.
+border: толщина стиль цвет;
+*/
